@@ -1,0 +1,6 @@
+#inclide <stdio.h>
+int main
+{
+     printf("Alice sade:\"how are you?\"\n")
+     return 0;
+}
