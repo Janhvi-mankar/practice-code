@@ -16,10 +16,10 @@ int main()
  else if(day==4){
      printf("thursday");
 }
- else if(num ==5){
+ else if(day ==5){
      printf("friday");
 }
- else if(num ===6){
+ else if(day ==6){
      printf("saturday");
 }
  else{
@@ -28,5 +28,3 @@ int main()
 
 return 0;
 }
- 
-  
