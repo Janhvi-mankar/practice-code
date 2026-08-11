@@ -1,0 +1,20 @@
+#include <stdio.h>
+int main()
+{
+      int n;
+      int i;
+      printf("enter an integer");
+      scanf("%d",&n);
+      for(;;)
+      {
+           int d=n%10;
+           if(d==0)
+           break;
+           d=d*d;
+          int k=d+n;
+          printf("k=%d",k);
+          n=k;
+      }
+      printf("iteration count=%d:",i);
+      return 0;
+}
