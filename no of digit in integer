@@ -1,0 +1,23 @@
+#include <stdio.h>
+int main()
+{
+      int n;
+      printf("enter a number:");
+      scanf("%d",&n);
+
+      int cnt = 0;
+
+      for(;;)
+  {
+      n = n / 10;
+      cnt++;
+
+      if(n == 0)
+         break;
+  }
+
+  printf("cnt =%d", cnt);
+
+  return 0;
+}
+   
