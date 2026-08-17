@@ -1,0 +1,22 @@
+#include <stdio.h>
+#include <stdlib.h>
+int main()
+{
+  int rN=(rand()%100)+1;
+  for(;;)
+    {
+       int n;
+       printf("enter integer");
+       scanf("%d",&n);
+       if(n>rN)
+       printf("higher");
+       else if(n<rN)
+       printf("lower");
+       else
+      {
+       printf("succes");
+       break;
+      } 
+    }
+return 0;
+}
