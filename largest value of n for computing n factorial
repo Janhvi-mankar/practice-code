@@ -1,0 +1,17 @@
+#include <stdio.h>
+int main()
+{
+    int n = 0;
+    int fact = 1;
+
+    do
+    {
+        n++;
+        fact = fact*n
+    }
+    while(fact<=INT_MAX/(n+1));
+    printf("largest n = %d\n",n);
+    printf("%d!=%d\n",n,fact);
+
+    return 0;
+}
