@@ -1,0 +1,15 @@
+#include<stdio.h>
+int main()
+{
+    int real,imaginary;
+    
+    printf("enter real number:");
+    scanf("%d",&real);
+    
+    printf("enter imaginary number:");
+    scanf("%d",&imaginary);
+    
+    printf("%d + %di",real, imaginary);
+    
+    return 0;
+}
