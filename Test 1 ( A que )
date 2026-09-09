@@ -1,0 +1,23 @@
+#include <stdio.h>
+
+int main()
+{
+    int num;
+    printf("Enter a 4-digit number: ");
+    scanf("%d", &num);
+
+    int d1 = num / 1000;
+    int d2 = (num / 100) % 10;
+    int d3 = (num / 10) % 10;
+    int d4 = num % 10;
+
+    int sum = d1 + d2 + d3 + d4;
+
+    int newNum = d4 * 1000 + d2 * 100 + d3 * 10 + d1;
+
+    printf("Digits: %d %d %d %d\n", d1, d2, d3, d4);
+    printf("Sum of digits = %d\n", sum);
+    printf("After interchanging first and last digits = %d\n", newNum);
+
+    return 0;
+}
